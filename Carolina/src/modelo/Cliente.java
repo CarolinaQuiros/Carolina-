@@ -14,7 +14,8 @@ public class Cliente {
     private String nombre;
     private String cedula;
     private String direccion;
-
+    private String telefono;
+    
     public Cliente(String nombre, String cedula, String direccion) {
         this.nombre = nombre;
         this.cedula = cedula;
